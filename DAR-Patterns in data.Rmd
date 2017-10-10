@@ -51,7 +51,7 @@ a + geom_boxplot()
 ```
 
 
-The plot reveals that line players all weigh more than all but the heaviest kill player. 
+The plot reveals that line players all weigh more than all but the heaviest skill player. 
 
 ## Numerical Results
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
@@ -59,7 +59,7 @@ The plot reveals that line players all weigh more than all but the heaviest kill
 ```{r}
 favstats(pushups~position,data=pushups)
 ```
-
+This numerical dataset shows that the skill players did more pushups than line players.
 
 
 # Inferential Results
