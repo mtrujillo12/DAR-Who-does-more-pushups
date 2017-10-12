@@ -35,7 +35,7 @@ Our Research Question is:
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
 
-
+We will be using a boxplot and a numerical dataset to analyze the variables.
 
 
 
