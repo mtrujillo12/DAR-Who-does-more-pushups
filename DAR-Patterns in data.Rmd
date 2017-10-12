@@ -58,3 +58,4 @@ Our Research Question is:
 # Discussion and Conclusion
 <!--State your overall conclusion.  This is also a good place to mention other Research Questions that came to mind as you were carrying out this study.!-->
 
+The Skills group was significantly better at doing push-ups than the line player group. We get this result with help from the box plot, the numerical dataset, and the t-test.
