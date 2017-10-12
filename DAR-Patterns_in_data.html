@@ -165,6 +165,20 @@ a + geom_boxplot()</code></pre>
 <div id="inferential-results" class="section level1">
 <h1>Inferential Results</h1>
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
+<p>We are testing to see if skill players do more pushups than line players.</p>
+<pre class="r"><code>t.test(pushups~position,data=pushups)</code></pre>
+<pre><code>## 
+##  Welch Two Sample t-test
+## 
+## data:  pushups by position
+## t = -5.4341, df = 27.079, p-value = 9.421e-06
+## alternative hypothesis: true difference in means is not equal to 0
+## 95 percent confidence interval:
+##  -44.91068 -20.29387
+## sample estimates:
+##  mean in group LINE mean in group SKILL 
+##            17.12500            49.72727</code></pre>
+<p>The mean for the line player group is 17.13 while the mean for the skill player group is 49.72, having a confidence interval of (-44.91,-20.3).</p>
 </div>
 <div id="discussion-and-conclusion" class="section level1">
 <h1>Discussion and Conclusion</h1>
